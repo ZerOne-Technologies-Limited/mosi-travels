@@ -384,7 +384,7 @@
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 					<div class="single-footer-widget">
 						<h6 id="about">About Us</h6>
 						<p>
@@ -399,7 +399,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-5  col-md-6 col-sm-6">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>Newsletter</h6>
 						<p>Stay update with our latest</p>
@@ -416,7 +416,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+				<div class="col-lg-3 col-md-3 col-sm-6 social-widget">
 					<div class="single-footer-widget">
 						<h6>Follow Us</h6>
 						<p>Let us be social</p>
@@ -428,9 +428,54 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 social-widget">
+					<div class="single-footer-widget">
+						<h6>Contact Us</h6>
+						<a href="" data-toggle="modal" data-target="#exampleModalCenter"> Click here</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<form>
+				<div class="mb-2">
+					<label for="customer-name" class="col-form-label">Name:</label>
+					<input type="text" class="form-control" id="recipient-name" required>
+				</div>
+				<div class="mb-2">
+					<label for="customer-name" class="col-form-label">Email:</label>
+					<input type="email" class="form-control" id="email" required>
+				</div>
+				<div class="mb-2">
+					<label for="customer-name" class="col-form-label">Preferred Travel Date:</label>
+					<input type="date" class="form-control" id="date" required>
+				</div>
+				<div class="mb-2">
+					<label for="message-text" class="col-form-label">Message:</label>
+					<textarea class="form-control" id="message-text"></textarea>
+				</div>
+			</form>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+ <!-- modals -->
 	<!-- End footer Area -->
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
