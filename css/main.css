@@ -2705,3 +2705,39 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+/* custom buttons etc */
+.tbutton{
+  border-color: #04091e;
+  border-radius: 10px;
+
+}
+
+.tbutton:hover {
+  color: #fff;
+  background-color: #04091e;
+  border-color: #545b62;
+}
+
+.tbutton:focus, .btn-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+/*modal tweaks*/
+.modal-header{
+  background-color:#04091e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-content{
+  border-radius: 10px;
+}
+
+.modal-title{
+  color: ghostwhite;
+}
+
+.col-form-label{
+  font-weight: bold;
+}
